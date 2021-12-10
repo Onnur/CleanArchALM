@@ -13,6 +13,9 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <WarningLevel>1</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\OnurK\Desktop\CleanArchALM\src\SampleProject.API\SampleProject.API.xml</DocumentationFile>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="logs\**" />
     <Compile Remove="SampleProject.Domain\**" />
